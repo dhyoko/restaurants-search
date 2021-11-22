@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import './index.css';
 import * as serviceWorker from './serviceWorker';
+import '@material/react-text-field/dist/text-field.css';
+import '@material/react-material-icon/dist/material-icon.css';
+import '@brainhubeu/react-carousel/lib/style.css';
+import 'leaflet/dist/leaflet.css';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Digital Innovation One: Criando um site para encontrar restaurantes usando Google Maps que consulta API do Google
 
-## Available Scripts
+## Descrição:
 
-In the project directory, you can run:
+Nesse projeto foi construir junto ao Eng. Patrick Narciso um sistema web de busca de restaurantes, parecido com o serviço que o Google oferece. Vamos desenvolver esse buscador usando React.JS e API do Google.
 
-### `yarn start`
+Durante a sessão, foram abordados os seguintes tópicos:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Elementos básicos do React.
+- Como estilizar os componentes utilizando a biblioteca Styled-Components.
+- Conceitos iniciais de responsividade.
+- Alguns conceitos de experiência do usuário (UI/UX).
+- Como trabalhar com dados fornecidos pela API do Google.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Lista de tarefas:
 
-### `yarn test`
+- [x] Recriar o projeto base
+- [ ] Adicionar modal para apresentar informação dos filmes e séries.
+- [ ] Adicionar modal com trailer no botao Assistir.
+- [ ] Utilizar API do TMDB para coletar os dados dos filmes e séries.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Links:
 
-### `yarn build`
+- [Styled-Components, para estilização dos componentes](https://styled-components.com/)
+- [Material UI para os campos de texto](https://mui.com/pt/)
+- [brainhubeu/react-carousel para a criação do carrossel](https://github.com/brainhubeu/react-carousel)
+- [React Leaflet, para renderização do mapa](https://react-leaflet.js.org/docs/start-installation/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Fixes:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [React-Leaflet não renderiza](https://stackoverflow.com/questions/40365440/react-leaflet-map-not-correctly-displayed)
